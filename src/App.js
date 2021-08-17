@@ -1,10 +1,12 @@
 import Home from './Home';
 import Login from './Login'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import AuthProvider from "./AuthProvider"
 
 let App = () => {
   return (
-    <div>
+    <>
+      <AuthProvider>
       <Router>
         <Switch>
 
@@ -18,7 +20,8 @@ let App = () => {
 
         </Switch>
       </Router>
-    </div>
+      </AuthProvider>
+    </>
   );
 }
 

@@ -1,4 +1,4 @@
-import { auth, signInWithGoogle } from './firebase';
+import { signInWithGoogle } from './firebase';
 import {userContext} from './AuthProvider'
 import { Redirect } from 'react-router-dom';
 import { useContext } from 'react';

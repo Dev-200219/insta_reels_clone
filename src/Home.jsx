@@ -18,6 +18,7 @@ let Home = () => {
     <button onClick={()=>{
         auth.signOut();
     }} type="button" class="btn btn-outline-primary m-4">Logout</button>
+    
     </>
 }
 

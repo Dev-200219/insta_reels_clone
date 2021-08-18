@@ -1,0 +1,97 @@
+.video-card{
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.video-card video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.video-card-username{
+    z-index: 2;
+    color: white;
+    position: absolute;
+    top: 35rem;
+    left: 20px;
+}
+
+.video-card-music{
+    z-index: 2;
+    color: white;
+    left: 18px;
+    top: 37rem;
+    display: flex;
+    position: absolute;
+}
+
+.video-card-comment{
+    position: absolute;
+    color: white;
+    top: 25rem;
+    right: 20px;
+    z-index: 2;
+    font-size: 2.5rem;
+}
+
+.video-card-like{
+    position: absolute;
+    color: red;
+    top: 28rem;
+    right: 20px;
+    z-index: 2;
+    font-size: 2.5rem;
+}
+
+.video-comment-box{
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+    z-index: 2;
+}
+
+.actual-comments{
+    height: 87%;
+    overflow-y: scroll;
+}
+
+.single-comment{
+    display: flex;
+}
+
+.actual-comments img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.actual-comments div{
+    margin: 10px;
+}
+
+.add-comment{
+    height: 10%;
+}
+
+.add-comment input{
+    width: 90%;
+    outline: none;
+}
+
+.add-comment button{
+    width: 10%;
+    border: none;
+    color: blue;
+}

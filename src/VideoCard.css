@@ -22,6 +22,7 @@
     position: absolute;
     top: 35rem;
     left: 20px;
+    cursor: default;
 }
 
 .video-card-music{
@@ -31,6 +32,7 @@
     top: 37rem;
     display: flex;
     position: absolute;
+    cursor: default;
 }
 
 .video-card-comment{
@@ -40,6 +42,7 @@
     right: 20px;
     z-index: 2;
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 .video-card-like{
@@ -49,6 +52,7 @@
     right: 20px;
     z-index: 2;
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 .video-comment-box{
@@ -61,7 +65,7 @@
 }
 
 .actual-comments{
-    height: 87%;
+    height: 86%;
     overflow-y: scroll;
 }
 
@@ -69,11 +73,11 @@
     display: flex;
 }
 
-.actual-comments img{
+.single-comment .user-comment-img img{
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     margin: 10px;
 }
 
@@ -86,12 +90,24 @@
 }
 
 .add-comment input{
+    position: absolute;
     width: 90%;
     outline: none;
+    background-color: #ecf0f1;
+    border: none;
+    bottom: 0;
 }
 
 .add-comment button{
     width: 10%;
     border: none;
     color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-left: 1px solid black;
+}
+
+.modal-body{
+    height: 100%;
 }

@@ -15,7 +15,7 @@ let Login = ()=>{
 
     <button onClick={()=>{
         signInWithGoogle();
-    }} type="button" class="btn btn-outline-primary m-4">Login With Google</button>
+    }} type="button" className="btn btn-outline-primary m-4">Login With Google</button>
     </>
 }
 

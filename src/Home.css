@@ -16,3 +16,12 @@
     scroll-snap-type: y mandatory;
 }
 
+input[type="file"]{
+    position: fixed;
+    bottom: 10rem;
+    right: 10px;
+    width: 7rem;
+    border: none;
+    outline: none;
+    color: transparent;
+}

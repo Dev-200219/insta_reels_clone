@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 config.json
+modalTest.html
 
 # testing
 /coverage
